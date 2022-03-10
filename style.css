@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #000;
+    background: rgb(0, 0, 0);
 }
 
 section {
@@ -27,8 +27,9 @@ section p {
     font-size: 1.2em;
 }
 
+/**** 1 ****/
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 12px;
 }
 
@@ -39,4 +40,72 @@ section p {
 
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(transparent,#7794e4);
+} */
+
+
+
+/**** 2 Neumorphism ScrollBar Design ****/
+
+/* body {
+    height: 2500px;
+    background: #e6e6e6;
+}
+::-webkit-scrollbar {
+    width: 33px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #ccc inset, -5px -5px 10px #fff inset;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius:50px;
+    box-shadow: -5px -5px 5px #ccc inset, 5px 5px 5px #f2f2f2 inset;
+    background: #e6e6e6;
+} */
+
+
+/**** 3 Neumorphism ScrollBar Design - Black Background ****/
+
+/* body {
+    height: 2500px;
+    background: #262626;
+}
+::-webkit-scrollbar {
+    width: 33px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #0d0d0d inset, -5px -5px 10px #4d4d4d inset;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius:50px;
+    box-shadow: -5px -5px 5px #0d0d0d inset, 5px 5px 5px #4d4d4d inset;
+    background: #262626;
+} */
+
+
+
+/**** 4 ****/
+::-webkit-scrollbar {
+    width: 2em;
+}
+
+::-webkit-scrollbar-track {
+    background: greenyellow;
+    border-radius: 100vw;
+    margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 100vw;
+    border: 0.25em solid greenyellow;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: gray;
 }
